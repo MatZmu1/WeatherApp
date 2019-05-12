@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(253, 253, 252);
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2.5px solid rgb(172, 197, 235);
+  transition: 2s;
+  border-radius: 20px;
+  background-color: rgba(135, 235, 185, 0.384);
+  color: white;
+  font-weight: 800;
+}
+
+.result h3,
+p {
+  color: white;
+}
+
+.data {
+  background-color: rgba(144, 215, 228, 0.459);
+  width: 30%;
+  padding: 1%;
+  color: white;
+  font-size: 50%;
+  margin: 5px;
+  float: left;
+  max-width: 17%;
+  display: block;
+  box-sizing: border-box;
+  margin: 40px 10px 10px 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+  border: 2.5px solid rgb(172, 197, 235);
+  border-radius: 40px;
+}
